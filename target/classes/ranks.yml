@@ -1,0 +1,40 @@
+default:
+  displayName: "Joueur"
+  prefix: "&7[&fJoueur&7]"
+  color: "GRAY"
+  permissions: []
+
+mod:
+  displayName: "Modérateur"
+  prefix: "&2[Modo]"
+  color: "DARK_GREEN"
+  permissions:
+    - "server.moderate"
+
+builder:
+  displayName: "Builder"
+  prefix: "&c[Builder]"
+  color: "RED"
+  permissions:
+    - "*"
+
+dev:
+  displayName: "Développeur"
+  prefix: "&c[Dev]"
+  color: "RED"
+  permissions:
+    - "*"
+
+admin:
+  displayName: "Admin"
+  prefix: "&c[Admin]"
+  color: "RED"
+  permissions:
+    - "*"
+
+fonda:
+  displayName: "Fondateur"
+  prefix: "&c[Fonda]"
+  color: "RED"
+  permissions:
+    - "*"

@@ -1,0 +1,11 @@
+name: HellstyliaAPI
+version: '1.0-SNAPSHOT'
+main: fr.GameOfFamous.hellstyliaAPI.HellstyliaAPI
+api-version: '1.21'
+commands:
+  setrank:
+    description: Définit le rang d'un joueur
+    usage: /setrank <joueur> <rank>
+  hub:
+    description: Retourner au hub
+    usage: /hub
